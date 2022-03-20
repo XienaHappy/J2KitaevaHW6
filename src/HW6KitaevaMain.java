@@ -1,3 +1,4 @@
+package Hw6;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import okhttp3.HttpUrl;
@@ -41,7 +42,7 @@ import java.util.Properties;
         }
 
         private static void loadProperties() throws IOException {
-            try(FileInputStream configFile = new FileInputStream("src/main/resourses/HW6Kitaeva.properties")){
+            try(FileInputStream configFile = new FileInputStream("Hw6/src/main/resourses/HW6Kitaeva.properties")){
                 prop.load(configFile);
             }
         }
